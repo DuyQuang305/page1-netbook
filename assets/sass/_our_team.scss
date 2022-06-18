@@ -134,26 +134,6 @@
                 text-align: center;
         }
 
-        @media screen and (max-width: 1279.98px) {
-                & {
-                        margin-top: 60px;
-                }
-                 
-                &__introduce-list {
-                        margin-top: 44px;
-                        display: grid;
-                        grid-template-columns: auto auto;
-                        grid-column-gap: 60px;
-                        grid-row-gap: 40px;
-                        justify-content: center;
-                        align-items: center;
-                }
-        }
         
-        @media screen and (max-width: 767.98px) {
-                & {
-                        padding: 0 60px;
-                }
-        }
 
 }

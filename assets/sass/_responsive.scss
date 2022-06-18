@@ -1,0 +1,387 @@
+// mobile & tablet
+@media  (max-width: 1023px) {
+        .hide-on-mobile-tablet {
+                display: none;
+            }
+
+            .show-on-mobile-tablet {
+                display: block;
+            }
+}
+
+// tablet
+
+@media  (min-width: 768px)  and (max-width: 1023px) {
+        .padding-0-60 {
+                padding: 0 60px;
+        }
+
+            .header__content {
+                display: block;
+                padding: 72px 60px 0;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        
+            .about_us__img-1 {
+                margin-right: 50px;
+            }
+
+            .our_achievement {
+             
+                margin-top: 90px;
+            }
+
+            .our_achievement__wrap {
+                display: block;
+            }
+
+            .our_achievement__wrap-item {
+                display: flex;
+                flex-direction: column
+            }
+
+            .our_achievement__item {
+                margin: 0 auto;
+            }
+
+            .our_achievement__item + .our_achievement__item {
+                margin-top: 20px;
+            }
+
+            .our_achievement__content-text {
+                margin-top: 90px;
+            }
+
+            .features {
+     
+                margin-top: 60px;
+            }
+        
+            .features__list {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .features__item {
+                width: 100%;
+            }
+
+            .features__item-img {
+                margin-top: 18px;
+            }
+
+            .features__content-heading {
+                margin-top: 10;
+            }
+
+            .features__content-desc {
+                margin-top: 4px;
+            }
+
+            .our_team {
+                margin-top: 60px;
+
+            }
+
+            .our_team__introduce-list {
+                display: grid;
+                grid-template-columns: auto auto;
+                row-gap: 50px;
+            }
+
+            .our_team__introduce-item {
+                margin: 0 auto;
+            }
+
+            .cta__image {
+                position: relative;
+            }
+
+            .blog__content-news {
+                display: flex;
+                flex-direction: column;
+            }
+
+          .blog__content-item-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .footer__top {
+                padding: 78px 60px 85px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+        }
+
+        .footer__top-content-btn {
+                right: 47%;
+        }
+
+}
+
+// mobile
+
+@media (max-width: 767px) {
+        .hide-on-mobile {
+                display: none;
+            }
+        
+        .padding-0-20 {
+                padding: 0 20px;
+        }
+
+        .header__content {
+        display: block;
+        padding: 50px 20px;
+        }
+
+        .header__content-heading {
+                font-size: 36px;
+                line-height: 46px;
+        }
+
+        .header__content-desc {
+                line-height: 20px;
+        }
+
+        .header__content-btn {
+                margin-top: 32px;
+        }
+
+        .header__content-about {
+                font-size: 14px;
+                padding: 20px 38px;
+        }
+
+        .header__content-invite {
+                font-size: 14px;
+                padding: 20px 38px;
+        }
+
+        .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .about_us__content-title {
+                margin-top: 50px;
+        }
+
+        .about_us__content-heading {
+                font-size: 30px;
+                line-height: 38px;
+        }
+
+        .about_us__imgs {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 60px;
+        }
+
+        .about_us__img-1 {
+                margin-bottom: 20px;
+            }
+
+     
+
+        .our_achievement {
+                padding: 0 20px;
+                margin-top: 45px;
+            }
+
+        .our_achievement__wrap-item {
+                display: block;
+        }
+
+        .our_achievement__item + .our_achievement__item {
+                margin-top: 20px;
+        }
+
+        .features {
+                margin-top: 20px;
+        }
+
+        .features__content-heading {
+                font-size: 30px;
+                line-height: 38px;
+        }
+
+        .features__item {
+                width: 100%;
+                height: 142px;
+        }
+
+        .features__item-text {
+                padding: 0;
+                margin-left: 29px;
+        }
+
+        .features__content-heading--item {
+                margin-top: 4px;
+                font-size: 24px;
+                line-height: 38px;
+        }
+
+        .features__item-img img{
+                width: 86px;
+        }
+
+        .features__content-desc--item {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                font-size: 14px;
+                line-height: 22px;
+        }
+
+        .our_team {
+                margin-top: 10px;
+        }
+        
+        .our_team__list  {
+                gap: 0;
+        }
+
+        .our_team__content-heading {
+                font-size: 30px;
+        }
+
+        .our_team__introduce-list {
+                flex-direction: column;
+                row-gap: 30px;
+                align-items: center;
+        }
+
+        .cta {
+                margin-top: 60px;
+                padding: 60px 60px 20px;
+                display: flex;
+                flex-direction: column;
+        }
+
+        .cta__content-text {
+                margin-left: 0;
+        }
+
+        .cta__image {
+                position: relative;
+        }
+
+        .cta__image img{
+                width: 200px;
+                margin-left: 100px;
+        }
+
+        .cta__content-heading {
+                font-size: 26px;
+                line-height: 30px;
+                margin-top: 0;
+        }
+
+        .cta__content-desc {
+                line-height: 22px;
+                margin-top: 14px;
+        }
+
+        .cta__content-btn {
+                margin-top: 30px;
+                gap: 10px;
+        }
+
+        .cta__content-download {
+                padding: 8px 10px 2px;
+        }
+
+        .cta__content-download-img img{
+                width: 30px;
+        }
+
+        .cta__content-download-text {
+                font-size: 14px;
+                line-height: 14px;
+        }
+
+        .blog  {
+                margin-top: 80px;
+        }
+
+        .blog__content-heading {
+                margin-top: 0;
+                line-height: 46px;
+        }
+
+        .blog__content-news {
+                margin-top: 32px;
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .blog__content-img{
+                width: 330;
+        }
+
+        .blog__content-img img{
+                width: 270px;
+        }
+
+        .footer {
+                margin-top: 90px;
+        }
+
+        .footer__top {
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+        }
+
+        .footer__top-menu {
+                display: grid;
+                grid-template-columns: auto auto;
+                row-gap: 40px;
+        }
+
+        .footer__top-content--heading {
+                max-width: 100%;
+        }
+
+        .footer__top-content-group input {
+                width: 335px;
+        }
+
+        .footer__top-content-btn {
+                right: 0;
+        }
+
+        .footer__bottom {
+                padding: 30px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 10px;
+        }
+
+        .footer__bottom-trademark {
+                gap: 6px;
+        }
+
+        .footer__bottom-text {
+                font-size: 20px;
+        }
+
+        .footer__bottom-social {
+                gap: 10px;
+        }
+
+ 
+}

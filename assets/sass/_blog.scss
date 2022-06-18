@@ -39,7 +39,6 @@
 
         &__content-img {
                 width: 347px;
-                height: 363px;
                 margin: 0 auto;
         }
 
@@ -86,40 +85,8 @@
                font-weight: 400;
         }
 
-        @media screen and (max-width: 1279px) {
-                & {
-                        margin-top: 90px;
-                }
-
-                &__content-news {
-                        display: block;
-                        margin-top: 74px;
-                }
-
-                &__content-desc {
-                        margin: 0 auto;
-                }
-
-                &__content-link {
-                        transform: translateX(32%);
-                        margin-bottom: 30px;
-                }
-        }
-
-        @media screen and (max-width: 1028.98px) {
-                &__content-link {
-                        transform: translateX(26%);
-                }
-        }
-
-        @media screen and (max-width: 767.98px) {
-                & {
-                        padding: 0 60px;
-                }
-
-                &__content-link {
-                        transform: translateX(21%);
-                }
+        .blog__content-item-wrapper-text {
+                margin-top: 20px;
         }
         
 }

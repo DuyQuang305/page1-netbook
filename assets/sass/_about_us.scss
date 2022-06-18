@@ -102,10 +102,6 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
         }
-        
-        &__img-item {
-                overflow: hidden;
-        }
 
         &__img-item--3 {
                 margin-top: 15px;
@@ -115,32 +111,9 @@
                 border-radius: 17px;
         }
 
-        @media screen and (max-width: 1279.98px) {
-                .container {
-                        display: block;
-                }
-                 
+        
 
-                &__imgs {
-                        margin-top: 80px;
-                }
-
-                &__img-1 {
-                        width: unset;
-                        margin-right: 100px;
-                }
-
-                &__img-item--3 {
-                        margin-top: 80px;
-                }
-                
-        }
-
-        @media screen and (max-width: 767.98px) {
-                & {
-                        padding: 0 60px;
-                }
-        }
+        
         
 }
 

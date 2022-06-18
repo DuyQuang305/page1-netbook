@@ -198,39 +198,7 @@
                 margin-left: 29px;
         }
 
-        @media screen and (max-width: 1279.98px) {
-                & {
-                        margin-top: 90px;
-                }
-                
-                &__wrap {
-                        display: block;
-                        &-item {
-                                display: flex;
-                                justify-content: center;
-                                gap: 40px;
-                        }
-                }
-
-                &__wrap-text {
-                        margin-top: 60px;
-                }
-
-                &__content-text {
-                        text-align: center;
-                }
-
-                &__content-btn {
-                        margin: 8px auto 0 ;
-                        transform: translateX(40%);
-                }
-        }
-
-        @media screen and (max-width: 767.98px) {
-                & {
-                        padding: 0 60px;
-                }
-        }
+        
         
 
    }

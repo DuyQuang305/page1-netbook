@@ -1,0 +1,125 @@
+.blog {
+        margin-top: 130px;
+        padding: 0 128px;
+        display: flex;
+        flex-direction: column;
+
+        &__content-text {
+                max-width: 515px;
+                margin: 0 auto ;
+                text-align: center;
+        }
+
+        &__content-title {
+                font-size: 18px;
+                font-style: medium;
+                width: 160px;
+                height: 40px;
+                font-weight: 500;
+                line-height: 18px;
+                color: #217BF4;
+                text-align: center;
+                margin: 0 auto ;
+        }
+
+        &__content-heading {
+                margin-top: 10px;
+                color: #0A093D;
+                font-size: 36px;
+                font-weight: 700;
+                font-style: bold;
+                line-height: 52px;
+        }
+
+        &__content-news {
+                display: flex;
+                gap: 61px;
+                margin-top: 74px;
+        }
+
+        &__content-img {
+                width: 347px;
+                height: 363px;
+                margin: 0 auto;
+        }
+
+        &__content-item {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+        }
+
+        &__content-desc {
+                position: relative;
+                max-width: 285px;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 32px;
+                text-align: start;
+                margin-left: 60px;
+                color: #2F2C4A;
+        }
+
+        &__content-desc::before {
+                content: "";
+                position: absolute;
+                border-top: 2px solid #FFAF2E;
+                width: 35px;
+                top: 0;
+                left: 0;
+                transform: translate(-50px, 16px);
+        }
+
+        &__content-link {
+                margin-top: 24px;
+                display: flex;
+                gap: 14px;
+                margin-left: 62px;
+        }
+
+        &__content-link--has-active {
+                color: #217BF4;
+        }
+
+        &__content-link--text {
+               font-size: 16px;
+               font-weight: 400;
+        }
+
+        @media screen and (max-width: 1279px) {
+                & {
+                        margin-top: 90px;
+                }
+
+                &__content-news {
+                        display: block;
+                        margin-top: 74px;
+                }
+
+                &__content-desc {
+                        margin: 0 auto;
+                }
+
+                &__content-link {
+                        transform: translateX(32%);
+                        margin-bottom: 30px;
+                }
+        }
+
+        @media screen and (max-width: 1028.98px) {
+                &__content-link {
+                        transform: translateX(26%);
+                }
+        }
+
+        @media screen and (max-width: 767.98px) {
+                & {
+                        padding: 0 60px;
+                }
+
+                &__content-link {
+                        transform: translateX(21%);
+                }
+        }
+        
+}

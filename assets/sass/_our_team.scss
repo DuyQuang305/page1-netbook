@@ -1,0 +1,159 @@
+.our_team {
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 135px;
+        &__content-text {
+                max-width: 500px;
+                margin: 60px auto 0;
+                text-align: center;
+        }
+
+        &__content-title {
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: 500;
+                font-style: medium;
+                color: #217BF4;
+        }
+
+        &__content-heading {
+                margin-top: 10px;
+                color: #0A093D;
+                font-size: 36px;
+                font-style: bold;
+                font-weight: 700;
+                line-height: 36px;
+        }
+
+        &__content-desc {
+                font-size: 16px;
+                font-style: regular;
+                font-weight: 400;
+                line-height: 28px;
+                margin-top: 18px;
+        }
+
+        &__email-form {
+                margin: 38px auto 44px;
+                background-color: rgba(33, 123, 244, 0.06);
+                display: flex;
+                width: 474px;
+                height: 72px;
+        }
+
+        &__list {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 40px;
+                color: #2F2C4A;
+        }
+
+        &__item {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16;
+                text-align: center;
+        }
+        
+
+        &__item-has--btn {
+                border: none;
+                border-radius: 14px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 56px;
+                color: white;
+                width: 150px;
+                height: 56px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                background-color: $primary-color;
+                box-shadow: 0px 10px 22px -6px rgba(33, 123, 244, 0.8);
+                cursor: pointer;
+        }
+
+        &__introduce-list {
+                margin-top: 44px;
+                display: flex;
+                gap: 20px;
+        }
+
+        &__introduce-item {
+                position: relative;
+                width: 270px;
+                height: 316px;
+                border-radius: 14px;
+                border: 1px solid #ccc;
+                border-image-source: linear-gradient( #B9B9B909, #5E5E5E19);
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #fff;
+        }
+
+        &__introduce-img--avt{
+                width: 152px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translate(40%, 30%);
+        }
+
+        &__introduce-img--border {
+                content: "";
+                position: absolute;
+                width: 180px;
+                top: 0;
+                left: 0;
+                transform: translate(26%, 18%);
+        }
+
+        &__introduce-content {
+                margin-top: 230px;
+        }
+       
+        &__introduce-name {
+                font-size: 24px;
+                font-weight: 600;
+                font-style: semi bold;
+                line-height: 26px;
+                color: #2F2C4A;
+        }
+
+        &__introduce-rank {
+                margin-top: 14px;
+                font-size: 16px;
+                font-style: regular;
+                line-height: 16px;
+                text-align: center;
+        }
+
+        @media screen and (max-width: 1279.98px) {
+                & {
+                        margin-top: 60px;
+                }
+                 
+                &__introduce-list {
+                        margin-top: 44px;
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        grid-column-gap: 60px;
+                        grid-row-gap: 40px;
+                        justify-content: center;
+                        align-items: center;
+                }
+        }
+        
+        @media screen and (max-width: 767.98px) {
+                & {
+                        padding: 0 60px;
+                }
+        }
+
+}

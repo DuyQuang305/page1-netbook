@@ -1369,14 +1369,12 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
+    gap: unset;
   }
   .footer__top-menu {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 40px;
-  }
-  .footer__top-content {
-    margin-top: 90px;
   }
   .footer__top-content--heading {
     max-width: 100%;

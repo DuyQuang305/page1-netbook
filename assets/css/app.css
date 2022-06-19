@@ -341,7 +341,6 @@ body {
 .our_achievement__wrap {
   width: 100%;
   display: flex;
-  gap: 83px;
   border-radius: 14px;
 }
 .our_achievement__wrap-item {
@@ -349,6 +348,7 @@ body {
   gap: 24px;
 }
 .our_achievement__wrap-text {
+  margin-top: 83px;
   width: 100%;
 }
 .our_achievement__item {

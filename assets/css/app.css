@@ -1393,7 +1393,7 @@ body {
     gap: 10px;
   }
 }
-@media (max-width: 364px) {
+@media (min-width: 320px) and (max-width: 620px) {
   .header__content-heading,
 .about_us__content-heading,
 .our_achievement__content-heading,
@@ -1422,6 +1422,13 @@ body {
     font-size: 10px;
     padding: 16px 34px;
   }
+  .about_us__img-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .our_achievement__content-text {
+    margin-top: 0;
+  }
   .features__item {
     height: 100px;
   }
@@ -1444,6 +1451,15 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+  }
+  .our_team__introduce-list {
+    display: block;
+  }
+  .our_team__introduce-item + .our_team__introduce-item {
+    margin-top: 20px;
+  }
+  .blog__content-img {
+    margin-top: 30px;
   }
   .footer__top-content-group input {
     width: 250px;

@@ -464,9 +464,9 @@
                 font-size: 20px;
         }
 
-        .footer__bottom-social {
-                gap: 10px;
-        }
+       .footer__bottom-social--icon + .footer__bottom-social--icon {
+        margin-left: 8px;
+       }
 
 }
 

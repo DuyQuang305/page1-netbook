@@ -1,5 +1,53 @@
-// mobile & tablet
+@media  (max-width: 1366px) {
+        .padding-0-100 {
+                padding: 0 100px;
+        }
+
+        .footer__top {
+                padding: 78px 100px 85px;
+        }
+
+        .footer__bottom {
+                padding: 20px 100px;
+        }
+}
+
+@media  (max-width: 1280px) {
+        .about_us__img-item--1 img {
+                width: 220px;
+        }
+
+        .about_us__img-item--2 img, .about_us__img-item--3 img {
+                width: 215px;
+        }
+
+        .about_us__img-icon img {
+                width: 44px;
+        }
+
+        .our_achievement {
+                margin-top: 90px;
+        }
+        
+        .our_achievement__wrap {
+                display: block;
+        }
+
+        .our_achievement__content-text {
+                margin-top: 60px;
+        }
+
+        .footer__top-content-btn {
+                right: 0;
+        }
+
+        .blog__content-img img{
+                width: 320px;
+        }
+}
+
 @media  (max-width: 1023px) {
+       
         .hide-on-mobile-tablet {
                 display: none;
             }
@@ -7,11 +55,7 @@
             .show-on-mobile-tablet {
                 display: block;
             }
-}
 
-// tablet
-
-@media  (min-width: 768px)  and (max-width: 1023px) {
         .padding-0-60 {
                 padding: 0 60px;
         }
@@ -121,7 +165,9 @@
         }
 
         .footer__top-content-btn {
-                right: 47%;
+                right: unset;
+                left: 0;
+                transform: translateX(185%);
         }
 
 }
@@ -198,12 +244,29 @@
                 margin-top: 45px;
             }
 
+        .our_achievement__wrap {
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+        }
+
         .our_achievement__wrap-item {
                 display: block;
         }
 
         .our_achievement__item + .our_achievement__item {
                 margin-top: 20px;
+        }
+
+        .our_achievement__content-title,
+        .our_achievement__content-heading, 
+        .our_achievement__content-desc, 
+        .our_achievement__content-btn {
+                text-align: center;
+        }
+
+        .our_achievement__content-about {
+                margin: 0 auto;
         }
 
         .features {
@@ -360,7 +423,9 @@
         }
 
         .footer__top-content-btn {
-                right: 0;
+                right: unset;
+                left: 0;
+                transform: translateX(185%);
         }
 
         .footer__bottom {
@@ -382,6 +447,78 @@
         .footer__bottom-social {
                 gap: 10px;
         }
+}
 
- 
+@media (max-width:364px) {
+
+        .header__content-heading,
+        .about_us__content-heading, 
+        .our_achievement__content-heading,
+        .features__content-heading,
+        .our_team__content-heading,
+        .blog__content-heading {
+                font-size: 26px;
+                line-height: 36px;
+        }
+
+        .cta__content-heading {
+                font-size: 23px;
+                line-height: 34px;
+        }
+
+        .header__content-desc, 
+        .about_us__content-desc,
+        .our_achievement__content-desc,
+        .features__content-desc,
+        .our_team__content-desc,
+        .cta__content-desc {
+                font-size: 12px;
+                line-height: 16px;
+        }
+
+        .header__content-about, 
+        .header__content-invite,
+        .our_achievement__content-about {
+                font-size: 10px;
+                padding: 16px 34px;
+        }
+
+        .features__item  {
+                height: 100px;
+        }
+
+        .features__item-text {
+                margin-left: 24px;
+        }
+
+        .features__item-img {
+                margin-top: 10px;
+        }
+
+        .features__item-img img {
+                font-size: 76px;
+        }
+
+        .features__content-heading--item {
+                margin-top: 0;
+                font-size: 20px;
+                line-height: 30px;
+        }
+
+        .features__content-desc--item {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+        }
+
+        .footer__top-content-group input {
+                width: 250px;
+        }
+
+        .footer__top-content-btn {
+                font-size: 12px;
+                transform: translateX(151%)
+        }
+
 }
